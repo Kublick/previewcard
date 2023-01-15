@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/src/public/images/favicon-32x32.png"
+		/>
+
+		<title>Frontend Mentor | Product preview card component</title>
+
+		<link rel="stylesheet" href="/dist/output.css" />
+	</head>
+	<body>
+		<section class="bg-cream p-4 h-screen flex justify-center items-center">
+			<div class="lg:rounded-xl">
+				<div class="max-w-[640px] grid lg:grid-cols-2">
+					<div
+						class="bg-mobile bg-cover md:bg-desktop h-[320px] lg:h-[500px] rounded-tl-xl rounded-tr-xl lg:ronded tracking-widest lg:rounded-tr-none lg:rounded-bl-xl lg:background-fit"
+					/>
+				</div>
+				<div
+					class="px-4 lg:px-10 py-8 font-montserrat bg-white flex flex-col justify-evenly"
+				>
+					<h2 class="text-darkgrayblue tracking-[0.4rem] text-sm">PERFUME</h2>
+					<h1
+						class="font-bold font-fraunces text-4xl my-4 text-verydarkblue tracking-tighter"
+					>
+						Gabrielle Essence Eau De Parfum
+					</h1>
+					<p class="text-darkgrayblue tracking-tighter">
+						A floral, solar and voluptuous interpretation composed by Olivier
+						Polge, Perfumer-Creator for the House of CHANEL.
+					</p>
+					<div class="flex items-center py-4 gap-2">
+						<p class="text-darkcyan font-fraunces text-4xl">$149.99</p>
+						<p class="line-through text-darkgrayblue">$169.99</p>
+					</div>
+					<button
+						class="flex items-center text-white bg-darkcyan px-4 py-3 w-full justify-center gap-4 font-bold rounded-xl hover:bg-verydarkblue"
+					>
+						<img src="/src/public/images/icon-cart.svg" alt="icon" />
+						Add to Cart
+					</button>
+				</div>
+			</div>
+			<div class="flex justify-center mt-4">
+				Challenge by
+				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+					>Frontend Mentor</a
+				>. Coded by <a href="#"> Max </a>.
+			</div>
+		</section>
+	</body>
+</html>
