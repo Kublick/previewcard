@@ -689,6 +689,11 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.px-2{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
 .font-montserrat{
   font-family: Montserrat;
 }
